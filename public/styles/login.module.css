@@ -1,0 +1,21 @@
+.loginbox{
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1360px;
+    padding: 20px;
+    height: 520px;
+    border: 2px solid black;
+    margin-top: 20px;
+    display: flex;
+
+}
+.mainlogin{
+   border: 2px solid cyan;
+   height:90%;
+   width:30%;
+}
+.imageC{
+    height:67px;
+    width:380px;
+    border:2px solid green
+}
