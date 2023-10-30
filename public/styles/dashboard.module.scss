@@ -15,10 +15,12 @@
 
         .nav1{
             display: flex;
+            height: 100px;
+           margin-top: -13px;
            ul:hover ul.submenu {
             display: block;
             margin-top: 10px;
-        
+            width: 215px;   
            }
            ul:hover {
             a{
@@ -37,24 +39,32 @@
                     padding-left: 0;
                     width: 180px;
                     top: 65px;
+                    z-index: 999;
                 }
                 ul.submenu li::hover {
                     background-color: #eee !important;
                 }
                 ul.submenu li{
                     color: black;
-                    padding: 12px;
                     font-size: 14px;
                     border-bottom: 2px solid rgba(221, 212, 212, 0.842);
+                    a {
+                        color: #000;
+                        width: 100%;
+                    }
+                    a:hover{
+                        color: #3968fa;
+                    }
                 }
                 
                 li {
                     display: flex;
-                   
+                   align-items: center;
                     a {
                         color: black;
                         text-decoration: none;
                         margin-top: 5px;
+                        padding: 12px;
                     }
                     span {
                         svg {
@@ -70,6 +80,7 @@
         .nav2{
             display: flex;
             margin-right: 12px;
+            height:100px;
             ul{
                display: flex;
                gap:18px
@@ -99,9 +110,10 @@
                     background: #f1f1f1;
                     position: absolute;
                     padding-left: 0;
-                    width: 180px;
+                    width: 210px;
                     top: 65px;
                     right: 30px;
+                    z-index: 999;
                     
                     
                 }
@@ -117,10 +129,14 @@
                     border-bottom: 2px solid rgba(221, 212, 212, 0.842);
                     a{
                         color:black;
+                        width: 100%;
+                    }
+                    a:hover{
+                        color: #3968fa;
                     }
                     span{
                         svg{
-                            width: 15 px;
+                            width: 20px;
                             fill:black;
 
                         }

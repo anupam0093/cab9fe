@@ -6,10 +6,12 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 
 const Login = () => {
+
   const router = useRouter();
   const navigate = (page: string) => {
     router.push("/login/" + page);
   };
+  
   return (
     <main>
       <div className={styles.maindiv}>
@@ -42,6 +44,8 @@ const Login = () => {
           </p>
         </div>
       </div>
+      
+
     </main>
   );
 };

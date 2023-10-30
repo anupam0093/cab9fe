@@ -1,0 +1,142 @@
+.contain1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5px 18px;
+    span{
+        svg{
+            width:25px;
+        }
+    }
+    h1{
+        margin: 0; 
+        font-weight: 500;   
+        font-size: 30px;
+        margin-top: 10px;
+        color: #000;
+     
+       
+    }
+   
+    span.contain2 {
+        display: flex;
+    align-items: center;
+    gap: 22px;
+        button {
+            width: 140px;
+            height: 35px;
+            background-color: blue;
+            border: none;
+            border-radius: 4px;
+            color: #fff;
+            cursor: pointer;
+            text-transform: uppercase;
+        }
+        svg {
+            width: 20px;
+            
+        }
+    }
+}
+
+
+
+.upcomingtab {
+    ul {
+        display: flex;
+        list-style: none;
+        gap: 35px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.231372549);
+        width: 1008px;
+        padding-top: 16px;
+        li {
+            text-transform: capitalize;
+            font-weight: 500;
+            color: gray;
+            font-size: 16px;
+            padding-bottom: 18px;
+        }
+        li.active {
+            border-bottom: 1px solid blue;
+            color: blue;
+        }
+    }
+}
+
+
+
+.searchsec {
+    display: flex;
+    position: relative;
+    input {
+        width: 65%;
+    border-bottom: 2px solid #00dcff !important;
+    border: none;
+    outline: none;
+    position: relative;
+    padding: 0px 30px;
+    }
+    button {
+        position: absolute;
+        top: 7px;
+        width: 31px;
+        background: no-repeat;
+        border: none;
+    }
+    .searchfilter {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    button {
+        width: 150px;
+    text-transform: uppercase;
+    height: 35px;
+    background: #fff;
+    box-shadow: 1px 1px 1px 3px #80808038;
+    border: none;
+    position: static;
+    }
+        span {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            input {
+                border: none;
+                border-bottom: 2px solid #00dcff;
+                font-size: 15px;
+                outline: none;
+                height: 34px;
+                cursor: pointer;
+            }
+            svg {
+                width: 42px;
+            }
+        }
+    }
+}
+
+
+
+.attentionsec {
+    p {
+        border: 1px solid red;
+    background: red;
+    padding: 5px 8px;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #fff;
+    width: 55px;
+    font-weight: 600;
+    }
+}
+
+
+
+.nodutiesec {
+    padding: 5px;
+    background: #8080801c;
+    p {
+        text-align: center;
+        font-size: 15px;
+        font-weight: 500;
+    }
+}

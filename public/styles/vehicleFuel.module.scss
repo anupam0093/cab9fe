@@ -1,0 +1,108 @@
+.contain1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 25px 18px;
+    h1 {
+      margin: 0;
+      font-weight: 500;
+      font-size: 24px;
+      margin-top: 10px;
+      color: gray;
+    }
+    span.contain2 {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      button {
+        width: 190px;
+        height: 35px;
+        background-color: blue;
+        border: none;
+        border-radius: 4px;
+        color: #fff;
+        text-transform: uppercase;
+        cursor: pointer;
+      }
+      svg {
+        width: 20px;
+      }
+    }
+  }
+  
+  .upcomingtab {
+    ul {
+      display: flex;
+      list-style: none;
+      gap: 35px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.231372549);
+      width: 1008px;
+      padding-top: 16px;
+      li {
+        text-transform: capitalize;
+        font-weight: 500;
+        color: gray;
+        font-size: 16px;
+        padding-bottom: 18px;
+      }
+      li.active {
+        border-bottom: 1px solid blue;
+        color: blue;
+      }
+    }
+  }
+  
+  .searchsec {
+    display: flex;
+    position: relative;
+    input {
+      width: 65%;
+      border-bottom: 2px solid #00dcff !important;
+      border: none;
+      outline: none;
+      position: relative;
+      padding: 0px 30px;
+    }
+    button {
+      position: absolute;
+      top: 7px;
+      width: 31px;
+      background: no-repeat;
+      border: none;
+    }
+    .searchfilter {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      button {
+        width: 140px;
+        text-transform: uppercase;
+        height: 35px;
+        background: #fff;
+        box-shadow: 1px 1px 1px 3px #80808038;
+        border: none;
+        position: static;
+        cursor: pointer;
+      }
+      span {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        input {
+          border: none;
+          border-bottom: 2px solid #00dcff;
+          font-size: 15px;
+          outline: none;
+          height: 34px;
+          cursor: pointer;
+        }
+        svg {
+          width: 42px;
+        }
+      }
+    }
+  }
+  
+ 
+  
+
+  

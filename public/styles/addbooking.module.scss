@@ -1,0 +1,302 @@
+.content {
+  background-color: red;
+  padding: 7px;
+  p {
+    margin: 0;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+  }
+}
+
+.newbooking {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+  h2 {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+  }
+  span {
+    svg {
+      width: 32px;
+    }
+  }
+}
+.travelagent {
+  p {
+    text-align: end;
+  }
+}
+.customersec {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 0 40px;
+  p {
+    text-transform: capitalize;
+  }
+}
+.travelagentsec {
+  padding: 0 20px;
+  display: flex;
+  gap: 30px;
+  select {
+    padding: 10px;
+    width: 81%;
+    border: none;
+    border: 2px solid #00dcff;
+    font-size: 15px;
+    outline: none;
+  }
+  button {
+    padding: 10px 26px;
+    text-transform: capitalize;
+    background-color: #fff;
+    box-shadow: 3px 2px 4px 0px #808080a6;
+    border-color: #fff;
+    font-size: 18px;
+  }
+}
+
+.bookedbysec {
+    margin: 20px 23px 0;
+    box-shadow: 0px 2px 2px 4px rgba(128, 128, 128, 0.3490196078);
+    padding-bottom: 4px;
+ 
+  .passengersec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 28px;
+    background: #8080802e;
+    h2 {
+      font-size: 16px;
+      font-weight: 500;
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+  .inputsec {
+    form {
+        .firstform {
+            display: flex;
+            align-items: center;
+        }
+      .secondform {
+        background: #e8e8e8;
+        display: flex;
+        align-items: center;
+        button {
+            width: 40px !important;
+            height: 35px !important;
+            background-color: red !important;
+            cursor: pointer !important;
+            color: #fff !important;
+            box-shadow: none !important;
+            border: none !important;
+            margin-left: 30px !important;
+            border-radius: 5px;
+            padding: 10px 15px;
+        }
+    
+      }
+      input {
+        width: 330px;
+        margin: 20px;
+        border: none;
+        border-bottom: 2px solid #00dcff;
+        padding-bottom: 20px;
+        outline: none;
+        background: transparent;
+      }
+    }
+  }
+  button {
+    display: flex;
+    gap: 5px;
+    padding: 10px 26px;
+    text-transform: capitalize;
+    background-color: #fff;
+    box-shadow: 3px 2px 4px 0px #808080a6;
+    border-color: #fff;
+    font-size: 18px;
+   
+    span {
+        svg {
+            width: 15px;
+            fill: black;
+        }
+    }
+  }
+}
+
+.servicesec {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 25px;
+    form {
+        display: grid;
+        label {
+            font-size: 13px;
+            padding-bottom: 13px;
+        }
+        input {
+            width: 270px;
+    border: none;
+    border-bottom: 2px solid #00dcff;
+    font-size: 15px;
+    outline: none;
+    cursor: pointer;
+        }
+
+        // input[type="date"]::-webkit-calendar-picker-indicator {
+        //     //display: none;
+        //     //-webkit-appearance: none;
+        //     width: 10px;
+        //     opacity: 0;
+        //     padding: 0px;
+        //     margin: 0px;
+        //     margin-top: 10px;
+        // }
+        select {
+            width: 270px;
+            border: none;
+            border-bottom: 2px solid #00dcff;
+            font-size: 15px;
+            outline: none;
+            cursor: pointer;
+        }
+    }
+}
+.servicesec1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 25px;
+    form {
+        display: grid;
+        label {
+            font-size: 13px;
+            padding-bottom: 7px;
+        }
+        input {
+            width: 603px;
+    border: none;
+    border-bottom: 2px solid #00dcff;
+    font-size: 15px;
+    outline: none;
+    cursor: pointer;
+        }
+
+        // input[type="date"]::-webkit-calendar-picker-indicator {
+        //     //display: none;
+        //     //-webkit-appearance: none;
+        //     width: 10px;
+        //     opacity: 0;
+        //     padding: 0px;
+        //     margin: 0px;
+        //     margin-top: 10px;
+        // }
+        select {
+            width: 270px;
+            border: none;
+            border-bottom: 2px solid #00dcff;
+            font-size: 15px;
+            outline: none;
+            cursor: pointer;
+        }
+    }
+}
+
+
+.Remarksec {
+    display: flex;
+    gap: 38%;
+    margin: 20px 25px;
+    form {
+       textarea {
+        width: 310%;
+        height: 200px;
+        border: 2px solid #00dcff;;
+        font-size: 15px;
+        outline: none;
+       }
+    }
+}
+
+.attachmentsec {
+    margin: 0 25px;
+    p {
+        a  {
+            text-decoration: none;
+    margin-left: 8px;
+        }
+    }
+}
+
+.labelform {
+    margin: 0 25px;
+    form {
+        display: grid;
+        label {
+            font-size: 15px;
+            padding-bottom: 10px;
+        }
+        select {
+            border: none;
+            border-bottom: 2px solid#00dcff;
+            font-size: 15px;
+            outline: none;
+            padding: 0 0 8px;
+            margin-left: -5px;
+        }
+    }
+}
+
+
+
+.marksec {
+    display: flex;
+    margin: 20px;
+    gap: 10px;
+    input[type="checkbox"] {
+        width: 25px;
+        border: 5px solid #000;
+    }
+    p {
+        font-weight: 500;
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+.feedbackline {
+    background-color: #80808017;
+    padding: 1px 40px;
+    margin: 0 20px;
+}
+
+
+.submitbutton {
+    button {
+    padding: 10px 26px;
+    text-transform: capitalize;
+    background-color: #fff;
+    box-shadow: 3px 2px 4px 0px #808080a6;
+    border-color: #fff;
+    font-size: 18px;
+    }
+}
+.rateButton{
+     padding: 10px 26px;
+    text-transform: capitalize;
+    background-color: #fff;
+    box-shadow: 3px 2px 4px 0px #808080a6;
+    border-color: #fff;
+    font-size: 18px;
+}
